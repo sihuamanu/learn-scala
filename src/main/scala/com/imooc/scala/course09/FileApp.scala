@@ -2,14 +2,12 @@ package com.imooc.scala.course09
 
 import scala.io.Source
 
-/**
-  * Created by sihua.ancloudera.com on 2020/1/29.
-  */
+
 object FileApp {
 
   def main(args: Array[String]): Unit = {
 
-    val file = Source.fromFile("/Users/sihua.ancloudera.com/app/hello.txt")(scala.io.Codec.UTF8)
+    val file = Source.fromFile("hello.txt")(scala.io.Codec.UTF8)
 
     def readLine(): Unit ={
       for(line <- file.getLines()){

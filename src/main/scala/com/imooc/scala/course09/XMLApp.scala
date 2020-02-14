@@ -4,9 +4,7 @@ import java.io.{FileInputStream, InputStreamReader}
 
 import scala.xml.XML
 
-/**
-  * Created by sihua.ancloudera.com on 2020/1/29.
-  */
+
 object XMLApp {
 
   def main(args: Array[String]): Unit = {
@@ -34,14 +32,14 @@ object XMLApp {
   def loadXML(): Unit ={
     /*val xml = XML.load(this.getClass.getClassLoader.getResource("test.xml"))
 
-    println(xml)*/
+    println(xml)
 
-    /*val xml = XML.load(new FileInputStream("/Users/sihua.ancloudera.com/Documents/Weekly-Work/kerberos-example/scala-train/src/main/resources/test.xml"))
-    println(xml)*/
+    val xml = XML.load(new FileInputStream("resources/test.xml"))
+    println(xml)
 
-    /*val xml = XML.load(new InputStreamReader(
+    val xml = XML.load(new InputStreamReader(
       new FileInputStream(
-        "/Users/sihua.ancloudera.com/Documents/Weekly-Work/kerberos-example/scala-train/src/main/resources/test.xml")))
+        "resources/test.xml")))
     println(xml)*/
 
   }

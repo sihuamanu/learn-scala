@@ -1,8 +1,6 @@
 package com.imooc.scala.course05
 
-/**
-  * Created by sihua.ancloudera.com on 2020/1/28.
-  */
+
 
 
 /**

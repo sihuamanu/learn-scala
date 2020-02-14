@@ -1,8 +1,6 @@
 package com.imooc.scala.course07
 
-/**
-  * Created by sihua.ancloudera.com on 2020/1/29.
-  */
+
 object StringApp extends App{
 
   //val s = "hello"

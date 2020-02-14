@@ -1,11 +1,9 @@
 package com.imooc.scala.course05
 
-/**
-  * Created by sihua.ancloudera.com on 2020/1/28.
-  */
+
 object ListApp extends App{
 
-  /*val l = List(1,2,3,4,5)
+  val l = List(1,2,3,4,5)
 
   val l5 = scala.collection.mutable.ListBuffer[Int]()
 
@@ -23,9 +21,9 @@ object ListApp extends App{
 
   l5.insert(0, 4)
 
-  l5.isEmpty
+  println(l5.isEmpty)
 
-  println(l5)*/
+  println(l5)
 
   def sum(nums:Int*): Int ={
     if(nums.length == 0) {

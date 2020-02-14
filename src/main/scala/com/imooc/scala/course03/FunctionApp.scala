@@ -1,8 +1,6 @@
 package com.imooc.scala.course03
 
-/**
-  * Created by sihua.ancloudera.com on 2020/1/28.
-  */
+
 object FunctionApp {
   def main(args: Array[String]): Unit = {
 

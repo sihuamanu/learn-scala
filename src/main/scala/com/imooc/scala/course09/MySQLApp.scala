@@ -3,9 +3,6 @@ package com.imooc.scala.course09
 import java.sql.{Connection, DriverManager}
 
 
-/**
-  * Created by sihua.ancloudera.com on 2020/1/29.
-  */
 object MySQLApp {
 
   def main(args: Array[String]): Unit = {

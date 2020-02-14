@@ -1,8 +1,6 @@
 package com.imooc.scala.course04
 
-/**
-  * Created by sihua.ancloudera.com on 2020/1/28.
-  */
+
 object SimpleObjectApp {
   def main(args: Array[String]): Unit = {
     val person = new People()

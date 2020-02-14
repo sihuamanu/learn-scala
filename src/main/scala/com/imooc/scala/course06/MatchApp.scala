@@ -2,12 +2,10 @@ package com.imooc.scala.course06
 
 import scala.util.Random
 
-/**
-  * Created by sihua.ancloudera.com on 2020/1/29.
-  */
+
 object MatchApp extends App{
 
-  /*val names = Array("Akiho Yoshizawa", "YuiHatano", "Aoi Sola")
+  val names = Array("Akiho Yoshizawa", "YuiHatano", "Aoi Sola")
 
   val name = names(Random.nextInt(names.length))
 
@@ -15,7 +13,7 @@ object MatchApp extends App{
     case "Akiho Yoshizawa" => println("吉泽明步")
     case "YuiHatano" => println("波多野结衣")
     case _ => println("不晓得")
-  }*/
+  }
 
  /* def judgeGrade(grade:String): Unit ={
     grade match {

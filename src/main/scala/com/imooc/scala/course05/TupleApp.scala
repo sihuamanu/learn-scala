@@ -7,8 +7,10 @@ object TupleApp extends App{
 
   val a = (1,2,3,4,5)
 
-  a._1
-  a._2
+  println(a._1)
+  println(a._2)
+
+  println(a.productArity)
 
   for(i <- 0 until(a.productArity)) {
     println(a.productElement(i))
@@ -17,7 +19,7 @@ object TupleApp extends App{
 
   val hostport = ("localhost", 8080)
 
-  hostport._1
-  hostport._2
+  println(hostport._1)
+  println(hostport._2)
 
 }

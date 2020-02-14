@@ -4,19 +4,17 @@ import java.io.File
 
 import ImplicitAspect._
 
-/**
-  * Created by sihua.ancloudera.com on 2020/1/29.
-  */
+
 object ImplicitApp extends App{
 
-  /*//定义隐式转换函数
+  //定义隐式转换函数
   //implicit def man2superman(man: Man):Superman = new Superman(man.name)
   val man = new Man("PK")
   man.fly()
 
 
   //implicit def file2RichFile(file: File): RichFile = new RichFile(file)
-  val file = new File("/Users/sihua.ancloudera.com/app/hello.txt")
+  /*val file = new File("hello.txt")
 
   val txt = file.read()
 
@@ -27,12 +25,12 @@ object ImplicitApp extends App{
   }
 
   //testParam("zhangsan")
-  /*implicit val name = "implicit_name"
-  testParam
-  testParam("PK")*/
+  //implicit val name = "implicit_name"
+  //testParam
+  //testParam("PK")
 
-  /*implicit val s1 = "s1"
-  implicit val s2 = "s2"*/
+  //implicit val s1 = "s1"
+  //implicit val s2 = "s2"
   //testParam
 
 

@@ -2,9 +2,7 @@ package com.imooc.scala.course05
 
 import scala.collection.mutable
 import scala.collection.mutable._
-/**
-  * Created by sihua.ancloudera.com on 2020/1/28.
-  */
+
 object MapApp extends App{
 
   val a = Map("PK" -> 18, "zhangsan" -> 30)
@@ -17,20 +15,19 @@ object MapApp extends App{
 
   b.getOrElse("PK", 9)
 
-  for((key,value) <- b) {
+  /*for((key,value) <- b) {
     println(key + " : " + value)
-  }
+  }*/
 
-  for(key <- b.keySet) {
+  /*for(key <- b.keySet) {
     println(key + " : " + b.getOrElse(key, 9) )
-  }
+  }*/
 
-  for(value <- b.values) {
-    println(value)
-  }
+    /*for(value <- b.values) {
+      println(value)
+    }*/
+      for((key,_) <- b) {
+        println(key + " : " + b.getOrElse(key, 9) )
 
-  for((key,_) <- b) {
-    println(key + " : " + b.getOrElse(key, 9) )
-
-  }
+      }
 }
