@@ -1,2 +1,2 @@
 # learn-scala
-record the process of learning Scala programming
+Record the process of learning Scala programming
